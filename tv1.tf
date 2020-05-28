@@ -4,10 +4,10 @@ provider  "aws" {
   secret_key = "XPowUJ0Zc17ZNQ35jDOfFZjbM+5M6Bo25djUfOKI"
 }
 variable "aws_subnet" {
-  #default = "us-east-1a"
+  default = "us-east-1a"
 }
 variable "aws_subnet1b" {
-  #default = "us-east-1b" 
+  default = "us-east-1b" 
 }
 resource "aws_vpc" "chris-test" {
    cidr_block = "10.0.0.0/16"
