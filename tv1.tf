@@ -1,7 +1,6 @@
 provider  "aws" {
   region     = "us-east-1"
-  access_key = "AKIA4KFLI5323WOGODDF"
-  secret_key = "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"
+  path = root
 }
 variable "aws_subnet" {
   default = "us-east-1a"
